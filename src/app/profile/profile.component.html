@@ -1,0 +1,13 @@
+<div>
+    <h2>User Profile</h2>
+    <div>
+      <label for="username">Username:</label>
+      <input type="text" id="username" [(ngModel)]="username" name="username" disabled>
+    </div>
+    <div>
+      <label for="password">Password:</label>
+      <input type="password" id="password" [(ngModel)]="password" name="password">
+    </div>
+    <button (click)="updateProfile()">Update</button>
+  </div>
+  
